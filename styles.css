@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 350px;
+  height: 150px;
+  background-color: #d3dedd;
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+
+}
+
+
+
+
+.colors {
+  margin-top: 10px;
+}
+
+.pair {
+  font-weight: bold;
+  
+}
+
+.price {
+  margin-top: 10px;
+  margin-left: 10xp;
+}
+.Papular {
+  margin: top 20px; ;
+  color: chartreuse;
+  margin-left: 160px;
+}
+
+
+.discount {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 180px;
+  
+}
+.popular {
+  margin-left: 160px;
+  color: darkgreen;
+  
+}
+.expanded {
+  width: 450px;
+  height: 250px;
+}
+.Bundle {
+  color: rgb(22, 185, 0);
+}
+
+.top {
+  order: 1;
+  border-left-color: rgb(0, 0, 0);
+  
+}
+
+.middle {
+  
+  order: 2;
+
+}
+
+
+.bottom {
+  order: 3;
+}
+.add-to-cart {
+  background-color: chartreuse;
+}
+
+
+colors {
+  margin-top: 10px;
+}
+
+.colors .color {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: gray;
+  padding: 5px;
+  cursor: pointer;
+}
